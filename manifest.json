@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Dummy Filler Extension",
+  "version": "1.0.0",
+  "description": "Fills input fields with a random data with indian and western names, emails, phone numbers, and addresses.",
+  "permissions": ["activeTab", "scripting"],
+  "author": "Anup Thakurwar",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "icons": {
+    "16": "assets/filler-extension-16.png",
+    "48": "assets/filler-extension-48.png",
+    "128": "assets/filler-extension-128.png"
+  }
+}
