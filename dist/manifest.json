@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Random Filler - INDUS",
+  "version": "1.0.0",
+  "description": "Fills input fields with a random email using React & Vite",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "action": {
+    "default_popup": "index.html"
+  },
+  "icons": {
+    "16": "assets/filler-extension-16.png",
+    "48": "assets/filler-extension-48.png",
+    "128": "assets/filler-extension-128.png"
+  }
+}
